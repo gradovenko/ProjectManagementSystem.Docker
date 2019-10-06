@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   projectms-webapi:
-    image: grad1242/projectmanagementsystem.webapi:0.5.4
+    image: grad1242/projectmanagementsystem.webapi:latest
     volumes:
       - /docker-data/projectms/logs/projectms-webapi/:/app/logs
     environment:
