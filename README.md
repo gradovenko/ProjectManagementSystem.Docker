@@ -1,4 +1,4 @@
-# ProjectManagementSystem.Docker
+# **ProjectManagementSystem.Docker**
 
 ## Deploying [ProjectManagementSystem.WebApi](https://github.com/gradovenko/ProjectManagementSystem.WebApi) on Linux OS family / Windows OS / macOS:
 
