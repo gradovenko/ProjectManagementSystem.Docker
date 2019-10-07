@@ -1,6 +1,8 @@
 # ProjectManagementSystem.Docker
 
-Deploying [ProjectManagementSystem.WebApi](https://github.com/gradovenko/ProjectManagementSystem.WebApi) on Linux OS family / Windows OS / macOS:
+**Deploying [ProjectManagementSystem.WebApi](https://github.com/gradovenko/ProjectManagementSystem.WebApi) on Linux OS family / Windows OS / macOS:**
+
+**1. Install and Run**
 
 To clone an application repository:  
 ```bash
@@ -12,16 +14,34 @@ To go to the application directory:
 cd ProjectManagementSystem.Docker
 ```
 
-To download or update the application:  
+To download the application:  
 ```bash
 docker-compose pull
 ```
 
 To start the application:  
 ```bash
-docker-compose up
+docker-compose up -d
 ```
+
+**2. Update**
 
 To stop the application:  
 ```bash
 docker-compose down
+```
+
+To update the repository:  
+```bash
+git pull
+```
+
+To update the application:  
+```bash
+docker-compose pull
+```
+
+To start the application:  
+```bash
+docker-compose up -d
+```
