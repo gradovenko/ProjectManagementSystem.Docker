@@ -1,6 +1,6 @@
 # ProjectManagementSystem.Docker
 
-### Deploying [ProjectManagementSystem.WebApi](https://github.com/gradovenko/ProjectManagementSystem.WebApi) on Linux OS family / Windows OS / macOS
+### Deploying [ProjectManagementSystem.Api](https://github.com/gradovenko/ProjectManagementSystem.Api) on Linux OS family / Windows OS / macOS
 
 ### 1. Install and Run
 
