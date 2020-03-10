@@ -1,10 +1,10 @@
 version: '3.4'
 
 services:
-  projectms-webapi:
+  projectms-api:
     image: grad1242/projectmanagementsystem.api:latest
     volumes:
-      - ../docker-data/projectms/logs/projectms-webapi/:/app/logs
+      - ../docker-data/projectms/logs/projectms-api/:/app/logs
     environment:
       - ConnectionStrings:ProjectMS=Server=projectms-db;Port=5432;Database=${POSTGRES_DB};User ID=${POSTGRES_USER};Password=${POSTGRES_PASSWORD};
     depends_on:
