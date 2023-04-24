@@ -1,6 +1,6 @@
 # ProjectManagementSystem.Docker
 
-### Deploying [ProjectManagementSystem.Api](https://github.com/gradovenko/ProjectManagementSystem.Api) on Linux OS family / Windows OS / macOS
+### Deploying [ProjectManagementSystem.Api](https://github.com/gradovenko/ProjectManagementSystem.Api) on Linux OS family / Windows OS
 
 ### 1. Install and Run
 
@@ -45,3 +45,6 @@ docker-compose pull
 ```bash
 docker-compose up -d
 ```
+
+## License
+This project is not licensed ([NO LICENSE](NOLICENSE)). All rights to the project belong to the author of the project.
